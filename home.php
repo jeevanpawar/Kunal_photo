@@ -185,9 +185,9 @@ $('div.background img').fadeIn(3000); // IE tweak
 
 <div class="background"><img src="images/album/a.jpg" class="st_preview"/> <img src="images/album/b.jpg" class="st_preview"/> <img src="images/album/c.jpg" class="st_preview"/> <img src="images/album/d.jpg" class="st_preview"/> <img src="images/album/e.jpg" class="st_preview"/><img src="images/album/f.jpg" class="st_preview"/><img src="images/album/g.jpg" class="st_preview"/></div>
   
-  <div class="fix"><img id="anim" src="images/logo.png" class="logo"><div class="logoname">Kunal Arts</div>
-      <div class="slogal">COMMERCIAL PHOTOGRAPHY</div>
-  </div>
+<div class="fix"><img id="anim" src="images/logo.png" class="logo"><div class="logoname">Kunal Arts</div>
+<div class="slogal">COMMERCIAL PHOTOGRAPHY</div>
+</div>
 
 
   
@@ -310,7 +310,7 @@ $('div.background img').fadeIn(3000); // IE tweak
          <span class="reference">
              <div>
              <ul id="menu" class="main">
-                <li><a class="topmenu" href="index.php" title="First example">Home</a></li>
+                <li><a class="topmenu" href="home.php" title="First example">Home</a></li>
                 <li><a class="topmenu" id="link-about" href="#about">About Us</a></li>
                 <li><a class="topmenu" id="link-portfolio" href="#portfolio" >Portfolio</a></li>
                 <li><a class="topmenu" id="link-about" href="#contact">Contact</a></li>
