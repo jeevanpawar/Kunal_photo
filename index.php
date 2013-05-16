@@ -216,7 +216,7 @@ $('div.background img').fadeIn(3000); // IE tweak
         
                     echo"<li class='dropdown'>";
                      echo "<ul>";
-                            echo"<li>&nbsp;</li>";
+                            echo"<li class='fade-in'>&nbsp;</li>";
                         echo "</ul>";
                         
                     echo "</li>";
