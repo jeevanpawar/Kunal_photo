@@ -1,5 +1,17 @@
+<?php
+include("Admin/config.inc.php");
+$counter = 0;
+
+$up="UPDATE counter SET counter = counter + 1";
+$upres=mysql_query($up);
+
+$show="select * from counter";
+$show_res=mysql_query($show);
+
+$row_show=mysql_fetch_array($show_res);
+
+?>
 <?php 
-	include("Admin/config.inc.php");
 	$qry="select * from gallery_photos where photo_category='4'";
 	$res=mysql_query($qry);
 	$res1=mysql_query($qry);
