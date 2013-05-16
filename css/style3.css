@@ -1,6 +1,6 @@
 .content{
 	right: 40px;
-	left: 400px;
+	left: 412px;
 	top: 285px;
 	width:800px;
 	position: absolute;
@@ -24,8 +24,8 @@
 	margin-top:-10%;
 	background-color:#000;
 	opacity:0.8;
-	height:550px;
-	width:622px;
+	height:578px;
+	width:658px;
 	margin-left:270px;
 	position:absolute;
 	float:left;	
@@ -96,7 +96,7 @@
 }
 .close
 {
-	margin-left:-450px;
+	margin-left:-435px;
 	margin-top:5px;
 	
 }
