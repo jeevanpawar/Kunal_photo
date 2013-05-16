@@ -13,7 +13,7 @@
 </style>
 </head>
 
-<body oncontextmenu="return false;">
+<body>
 <table width="100%" border="0" cellspacing="1" cellpadding="1" class="mo">
 <tr>
 <td>&nbsp;</td>
