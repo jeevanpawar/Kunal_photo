@@ -405,7 +405,7 @@ init : init
     <?php 
 		include("Admin/config.inc.php");
 		$mid=$_GET['id2'];
-		$qry="select * from gallery_photos where photo_category='$mid'";
+		$qry="select * from gallery_photos where photo_category='4'";
 		$res=mysql_query($qry);
 	?>
 

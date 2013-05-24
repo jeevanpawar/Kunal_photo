@@ -48,20 +48,16 @@ li.button a span{
 }
 
 .dropdown{
-	/* The expandable lists */
 	display:none;
 	padding-top:1px;
-	width:100%;
-	
+	overflow:hidden;
+	float:left;
 }
 
 .dropdown li{
-	/* Each element in the expandable list */
 	background-color:#373128;
-
 	color:#CCCCCC;
 	margin:5px 0;
-	width:1320px;
 	height:150px;
 }
 

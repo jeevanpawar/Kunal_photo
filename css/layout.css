@@ -59,6 +59,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 	text-align: left;
+	
+	
+	
 }
 
 .embed-container {
@@ -211,7 +214,6 @@ header {
     width: 362px;
 }
 .serviceInfoWrap {
-    background: #F9F9F9;
     left: 19px;
     top: 19px;
 }
@@ -227,26 +229,45 @@ header {
     transition: all 0.6s ease-in-out 0s;
 }
 .serviceInfo .serviceInfoBack {
-    background:#6A0C31;
-    opacity: 0;
+	opacity: 0;
     transform: scale(1.5);
     transition: all 0.4s ease-in-out 0.2s;
 }
+
 .ie8 .serviceInfo .serviceInfoBack {
     display: none;
 }
-.darkslider, .darkslider .serviceInfoFront {background-image: url(../images/dark-slider.jpg);}
-.darkvideo, .darkvideo .serviceInfoFront {background-image: url(../images/dark-video.jpg);}
-.lightslider, .lightslider .serviceInfoFront {background-image: url(../images/dark-slider.jpg);}
-.lightvideo, .lightvideo .serviceInfoFront {background-image: url(../images/dark-video.jpg);}
+.darkslider, .darkslider .serviceInfoFront {background-image: url(../intro2.jpg);}
+.darkvideo, .darkvideo .serviceInfoFront {background-image: url(../intro2.jpg);}
+.lightslider, .lightslider .serviceInfoFront {background-image: url(../intro1.jpg);}
+.lightvideo, .lightvideo .serviceInfoFront {background-image: url(../intro1.jpg);}
 
+
+.paint:hover
+{
+	opacity:0.5;
+	
+}
 .serviceInfo h3 {
+	
     color: #FFFFFF;
     font-size: 28px;
-    margin: 80px 19px 0 19px;
+	margin-top:180px;
+	margin-left:-190px;
     padding: 0 0 10px;
     text-align: center;
     text-transform: uppercase;
+	letter-spacing:5px;
+	text-shadow: 1px 1px 25px rgba(153, 230, 255, 1);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.intro1
+{
+	margin-left:40px;
+}
+.intro2
+{
+	margin-left:150px;
 }
 .serviceInfo h3 span{
     font-size: 36px;

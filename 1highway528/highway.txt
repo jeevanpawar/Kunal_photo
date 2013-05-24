@@ -1,0 +1,5 @@
+&varURL=          www.variableURL.com
+&text1=your variable text 1 goes here
+&text2=your variable text 2 goes here
+&text3=your variable text 3 goes here
+&url=http://www.wyomingwebdesign.com/index.html

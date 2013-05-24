@@ -29,20 +29,16 @@
 	overflow: hidden;
 }
 .left {
-	/*background-color: #F00;*/
-				background-color:#111111;
-
-			height: 900px;
+	background-color:#111111;
+	height: 900px;
 	width: 0%;
-	overflow: hidden;
+	float: left;
 }
 .right {
-	/*background-color: #FF0;*/
-			background-color:#111111;
+    background-color:#111111;
 	height: 900px;
 	width: 0%;
 	float: right;
-	
 }
 .top-margin-intro {
 	margin-left: 20%;
@@ -50,7 +46,7 @@
 }
 </style>
 </head>
-<body oncontextmenu="return false;">
+<body>
 <!--<iframe title='YouTube video player' class='youtube-player' type='text/html'
         width='1000' height='600'
         src='http://www.youtube.com/embed/ZFo8b9DbcMM?rel=0&border=&autoplay=1'
@@ -63,23 +59,24 @@
     <div class="serviceItem top-margin-intro darkslider">
       <div class="serviceInfoWrap">
         <div class="serviceInfo">
-          <div class="serviceInfoFront"></div>
+          <div></div>
           <div class="serviceInfoBack">
-            <h3><span>Dark</span><br/>
-              Fullscreen <strong>Slider</strong></h3>
+            <h3><br><br>
+            <span class="intro1">Painting</span></h3>
           </div>
         </div>
       </div>
     </div>
     </a> </div>
+    
   <div class="left" > <a href="home.php">
     <div class="serviceItem top-margin-intro lightslider">
       <div class="serviceInfoWrap">
         <div class="serviceInfo">
-          <div class="serviceInfoFront"></div>
+          <div></div>
           <div class="serviceInfoBack">
-            <h3><span>Light</span><br/>
-              Fullscreen <strong>Slider</strong></h3>
+            <h3><br><br>
+            <span class="intro2">Photography</span></h3>
           </div>
         </div>
       </div>

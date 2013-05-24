@@ -4,15 +4,15 @@ $(document).ready(function(){
 	//init main menu
 	sampleMenuStt = {
 		'effect' : 'fx3',
-		'particleWidth' : '9',
-		'particleHeight' : '9',
+		'particleWidth' : '11',
+		'particleHeight' : '11',
 		'labelActiveColor' : '#303030',
 		'labelInactiveColor' : '#f0f0f0',
 		'particleColorOne' : '#FF0000',
 		'particleColorTwo' : '#CCCCCC',
 		'background-color' : '#000000',
 		'width' : '150',
-		'height' : '35'
+		'height' : '32'
 	};
 	$('ul#menu a').lhpTwoColorButton(sampleMenuStt);
 	$('ul#menu a').bind('click', function(event) {

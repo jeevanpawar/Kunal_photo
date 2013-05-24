@@ -1,0 +1,51 @@
+Upload ALL files to your main/root directory.
+
+For the Flash intro to be your default start page, simply rename your existing 
+start page. Typically speaking, start pages are called "index.html", "index.htm", 
+"default.html", or "default.htm". Your home/start page "probably" has one of 
+these file names. You're going to have to rename it. This can be accomplished 
+simply by opening your start page and then resaving it under a different file 
+name. Typically people use "index2.html", although your choice of actual file 
+name is irrelevant. Once you save your start page under the new file name, you 
+will now have 2 copies of the same page, each with different file names. 
+
+             //////////////// Follow these steps ////////////////////////
+
+Assuming your start page is called index.html...
+
+Open index.html. 
+
+Locate the "save as" feature of whatever editor you're using and manually enter the 
+filename "index2.html" (or whatever your preference is). 
+
+Click "save as".  
+
+Open the flash HTML file (it was included in the download and will have the same
+name as the intro you've selected, although with .html as an extension and the number
+"1" in front of it. If you've downloaded the green_bars intro, the flash HTML will be
+called "1green_bars.html").
+
+Using "save as", save the flash HTML file as index.html.
+
+                   //////////////////////////////////////////////////////////////////////
+
+What you've done is merely swap file names. The flash intro has become your start 
+page and your original start page has been renamed to index2.html. 
+
+Additionally, you'll need to edit your other pages. Any "HOME" links which currently 
+point to index.html will need to be edited to point to index2.html (unless you want 
+visitors to your site to view your intro over and over again).
+
+The flash intro is not your true home page. It is essentially a gateway that leads your
+visitors TO your home page. We need to style it "as" your home page though in order
+for it to be the first page served when people arrive at your site.
+
+                   //////////////////////////////////////////////////////////////////////
+
+We do provide a customization service for our free intros for a small fee. Typically, this
+service involves expanding the intro to allow more text, adding music or other audio
+files, adding effects and preloading stages, etc... and of course our link is also removed.
+More information and sample customizations can be seen here:
+
+http://www.wyomingwebdesign.com/files/flash/free_customize/index.html
+
