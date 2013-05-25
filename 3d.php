@@ -1,15 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
 <head>
 <title>Kunal Arts</title>
 <meta name="Author" content="Gerard Ferrandez at http://www.dhteumeuleu.com">
 <meta http-equiv="imagetoolbar" content="no">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
 		<script src="js/cufon-yui.js" type="text/javascript"></script>
 		<script src="js/Quicksand_Book_400.font.js" type="text/javascript"></script>
+         <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/flowslider.jquery.js"></script>
-        
         
 <style type="text/css">
 	html {
@@ -47,7 +45,6 @@
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 }
 	#screen {
-		
 		position: absolute;
 		width: 100%;
 		height: 100%;
@@ -55,22 +52,18 @@
 		overflow: hidden;
 	}
 	#screen img, canvas { 
-		
 		position: absolute;
 		left: -9999px;
 		cursor: pointer;
-		
         image-rendering: optimizeSpeed;
 
 	}
 	#screen .href {
-		
 		border: #FFF dotted 1px;
 	}
 	#screen .fog { 
 		position: absolute;
-		background: #000;
-		
+		background: #fff;
 		opacity: 0.1;
 		filter: alpha(opacity=10);
 	}
@@ -80,7 +73,7 @@
 		bottom: 0.1em;
 		z-index: 30000;
 		background:#000;
-
+		border: #000 solid 1em;
 	}
 	#bar {
 		position:relative;
@@ -90,15 +83,11 @@
 		height: 100px;
 	}
 	#bar .button { 
-		text-align:center;
 		position: absolute;
 		width: 100px;
 		height: 75px;
 		cursor: pointer;
-		border:5px solid #FFF;
-		
 	}
-	
 	#bar .loaded { 
 	}
 	#bar .viewed { 
@@ -112,6 +101,11 @@
 		z-index: 30000;
 		padding-left: 12px;
 		cursor: pointer;
+	}
+	.close
+	{
+		background-color:#333;
+		width:100px;
 	}
 </style>
 
@@ -391,21 +385,32 @@ init : init
 		opacity:0.9;
 		-webkit-transform:rotate(360deg);
 	}
+	.logo
+	{
+
+		opacity:0;
+		
+	}
 </style>
 </head>
 
 <body>
+
 	<div id="screen">
-		<div id="command">
+
+
+        <div id="command">
 
 			<div id="bar" class="ba" ></div>
-		</div>
+		
+        </div>
+        
 		<div id="urlInfo"></div>
 	</div>
     <?php 
 		include("Admin/config.inc.php");
 		$mid=$_GET['id2'];
-		$qry="select * from gallery_photos where photo_category='4'";
+		$qry="select * from gallery_photos where photo_category='$mid'";
 		$res=mysql_query($qry);
 	?>
 
@@ -547,7 +552,7 @@ init : init
 	}
 	setTimeout( doSomethingAfterAWhile, aWhile );
     </script>
-</body>
+</body>	
 </html>
 
 

@@ -57,15 +57,18 @@ body
 
 <body>
 <div align="center" class="flash">
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="99%">
-<param name="movie" value="flashmovie.swf" />
-<param name="quality" value="high" />
-<PARAM NAME="SCALE" VALUE="exactfit">
-<embed src="intro.swf" quality="high" type="application/x-shockwave-flash" width="100%" height="99%" SCALE="exactfit" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-</object>
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width="100%" height="99%">
+ <PARAM NAME=movie VALUE="intro.swf"> 
+<PARAM NAME=loop VALUE=false> 
+<PARAM NAME=quality VALUE=high> 
+<PARAM NAME=bgcolor VALUE=#000000>
+ <EMBED src="intro.swf" loop=false quality=high bgcolor=#000000 width="100%" height="99%" SCALE="exactfit" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></EMBED>
+</OBJECT>
 </div>
 <div class="intoname fade-in" align="center">
-KUNAL ARTS 
+<a href="intro.php">KUNAL ARTS </a>
 </div>
 <div class="sloname fade-in" align="center">
 COMMERCIAL PHOTOGRAPHY

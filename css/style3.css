@@ -5,6 +5,8 @@
 	width:800px;
 	position: absolute;
 	padding-bottom: 30px;
+	
+
 }
 .panel{
 	min-height: 60%;
@@ -18,17 +20,23 @@
 	-o-transition: all .6s ease-in-out;
 	-ms-transition: all .6s ease-in-out;
 	transition: all .6s ease-in-out;
+	
 }
 .port
 {
-	margin-top:-10%;
+	margin: 0;
+	margin-bottom:-80%;
+
 	background-color:#000;
 	opacity:0.8;
 	height:578px;
 	width:658px;
 	margin-left:270px;
 	position:absolute;
-	float:left;	
+	float:left;
+	overflow:hidden;
+	bottom:0;
+		
 			
 }
 .port1
@@ -228,9 +236,9 @@ width:400px;
     -moz-animation-fill-mode:forwards;
     animation-fill-mode:forwards;
  
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    animation-duration:2s;
 }
  
 .fade-in.one {

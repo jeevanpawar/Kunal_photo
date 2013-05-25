@@ -211,117 +211,35 @@ $('div.background img').fadeIn(3000); // IE tweak
     <div class="content">
       <div class="port1">
        
-        	    <?php 
+                					
+                <div class="gallery">
+                
+  				<ul id="st_nav" class="st_navigation">
+				<?php
+				
 					include("Admin/config.inc.php");
     	       		$qry="select * from gallery_category";
 					$res=mysql_query($qry);
-				?>
-                
-                <div class="gallery">
-                <?php /*?><?php 
-				while($row=mysql_fetch_array($res))
-				{
-					echo "<ul id='menu'>";
-					echo "<li class='port_port_menu'>";
 					
-				    echo"<ul>";
-                    echo"<li class='button'><a href='#' class='green'>$row[1]<span></span></a></li>";
-        
-                    echo"<li class='dropdown'>";
-                    echo "<ul id='st_nav'>";
-                    echo"<li class='album'><div class='new add'><div class='st_thumbs'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'><img src='a.jpg' width='200' height='150'></div></div></li>";
-                    echo "</ul>";
-                        
-                    echo "</li>";
-        
-                    echo "</ul>";
-          
-                  	echo "</li>";
-                
-                  	echo "</ul>";
-                }
-      			?><?php */?>
-                
-  				<ul id="st_nav" class="st_navigation">
-				
-                <li class="album" id="menu">
-                
-					<span class="st_link">Jeevan<span class="st_arrow_down"></span></span>
-					<div class="st_wrapper st_thumbs_wrapper">
-						<div class="st_thumbs fade-in">
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-						</div>
-					</div>
-				</li>
-				<li class="album">
-					<span class="st_link">Jeevan<span class="st_arrow_down"></span></span>
-					<div class="st_wrapper st_thumbs_wrapper">
-						<div class="st_thumbs fade-in">
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-						</div>
-					</div>
-				</li>
-				<li class="album">
-					<span class="st_link">Jeevan<span class="st_arrow_down"></span></span>
-					<div class="st_wrapper st_thumbs_wrapper">
-						<div class="st_thumbs fade-in">
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-						</div>
-					</div>
-				</li>
-				<li class="album">
-					<span class="st_link">Jeevan<span class="st_arrow_down"></span></span>
-					<div class="st_wrapper st_thumbs_wrapper">
-						<div class="st_thumbs fade-in">
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-							<img src="images/album/thumbs/1.jpg" alt="images/album/1.jpg"/>
-							<img src="images/album/thumbs/2.jpg" alt="images/album/2.jpg"/>
-							<img src="images/album/thumbs/3.jpg" alt="images/album/3.jpg"/>
-							<img src="images/album/thumbs/4.jpg" alt="images/album/4.jpg"/>
-						</div>
-					</div>
-				</li>
-				
+					
+				while($row=mysql_fetch_array($res))
+	          	{
+					echo "<li class='album'>";
+                	echo "<span class='st_link'>$row[1]<span class='st_arrow_down'></span></span>";
+					echo "<div class='st_wrapper st_thumbs_wrapper'>";
+					echo "<div class='st_thumbs fade-in'>";
+						$qry1="select * from gallery_photos where photo_category='$row[0]'";
+						$res1=mysql_query($qry1);
+					
+						while($row1=mysql_fetch_array($res1))
+						{
+							echo "<a href='3d.php?id2=$row1[3]&&id3=$row1[0]'><img src='Admin/photos/$row1[1]' width='180' height='140''></a>";
+						}
+					echo "</div>";
+					echo "</div>";
+				   	echo "</li>";
+				}
+                ?>
 			</ul>
       			</div>
                 
